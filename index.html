@@ -70,13 +70,14 @@
                 > <!-- the top of the page -->
         
         
-                <div id = navbar style="padding-right: 50px; position:fixed; float:right;">        
+                <div id = navbar style="padding-right: 50px; position: fixed; float:right;">        
                     <a style="color: white;" href=#cont>Contact</a>
                     <a style="color: white;" href=#hob>Hobbies</a>
                     <a style="color: white;" href=#work>Work Experience</a>
                     <a style="color: white;" href=#edu>Education</a>
                     <a style="color: white;" href=#info>Info</a>
                     </div>
+                
         
         <br><br><hr>
         <h1 style="text-align: left; color: white; font-size: 4em; ">Haris Berilo's Resume</h1>
@@ -246,21 +247,20 @@
 
 
         </div>
-	    
-	                 <!-- making the nav menu 'smoothly' appear after scrolling off it -->
-        <script>   
-            window.onscroll = function() {stickyNav()};
-            
-            function stickyNav() {
-              if (document.body.scrollTop > 220 || document.documentElement.scrollTop > 220) {
-                    document.getElementById("navbar").style.right = "0";
-              } else {
-                    document.getElementById("navbar").style.right = "-550px";
-              }
-            }
-            </script>
-	    
-	    
+
+                    <!-- making the nav menu 'smoothly' appear after scrolling off it -->
+                    <script>   
+                        window.onscroll = function() {stickyNav()};
+                        
+                        function stickyNav() {
+                          if (document.body.scrollTop > 220 || document.documentElement.scrollTop > 220) {
+                                document.getElementById("navbar").style.right = "0";
+                          } else {
+                                document.getElementById("navbar").style.right = "-550px";
+                          }
+                        }
+                        </script>
+
 
     </body>
 
